@@ -126,6 +126,8 @@ module.exports = function(grunt) {
 				files: [
 					'css/theme/source/*.sass',
 					'css/theme/source/*.scss',
+					'css/theme/source/components/*.sass',
+					'css/theme/source/components/*.scss',
 					'css/theme/template/*.sass',
 					'css/theme/template/*.scss'
 				],
