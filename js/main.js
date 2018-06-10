@@ -1,4 +1,9 @@
 
+console.log('host', window.location.host);
+
+
+
+
 Reveal.initialize({
   width: 1024,
   heigth: 576,
@@ -12,6 +17,11 @@ Reveal.initialize({
     { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
   ],
 });
+
+function onClickItemMenu (slideNumber) {
+  window.location.hash = `#/${slideNumber}`;
+  location.reload();
+}
 
 
 Reveal.addEventListener( 'fragmentshown', function( event ) {
@@ -75,6 +85,7 @@ Reveal.addEventListener( 'fragmentshown', function( event ) {
     case 'p07__1-5':
       hideElementbyId('p07__1-4')
       hideElementbyId('p07__1-3')
+      hideElementbyId('p07__1-0')
     break;
     case 'p07__1-6':
       hideElementbyId('p07__1-5')
