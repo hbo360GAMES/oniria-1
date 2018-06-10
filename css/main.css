@@ -2510,16 +2510,16 @@ top: 160px;
 }
 #p29__1-9 {
   position: absolute;
-  right: 380px;
-  top: 62px;
+  top: 77px;
   z-index: 1;
+  left: 249px;
 
 }
 #p29__1-10 {
   position: absolute;
-  right: 379px;
-  top: 61px;
+  top: 77px;
   z-index: 1;
+  left: 249px;
 
 }
 #p29__1-11 {
@@ -2580,22 +2580,23 @@ top: 160px;
 }
 #p29__1-19 {
   position: absolute;
-  right: 230px;
   top: 32px;
-  z-index: 1
+  z-index: 1;
+  LEFT: 420PX;
 
 }
 #p29__1-20 {
   position: absolute;
-  right: 500px;
-  top: 201px;
+  left: 360px;
+  top: 202px;
   z-index: 1;
 
 }
 #p29__1-21 {
   position: absolute;
-  right: 350px;
-  top: 72px;
+  top: 92px;
+  z-index: 1;
+  LEFT: 389PX;
   z-index: 1;
 
 }
@@ -2642,7 +2643,7 @@ top: 160px;
 }
 #p29__1-28 {
   position: absolute;
-  right: 193px;
+  right: 263px;
   top: 88px;
   z-index: 1;
 

@@ -397,7 +397,8 @@ body {
 
 #menu li {
   padding: 10px 0;
-  font-size: 22px; }
+  font-size: 22px;
+  cursor: pointer; }
 
 /*
  * And let's slide it in from the left
